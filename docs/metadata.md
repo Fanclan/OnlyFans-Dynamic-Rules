@@ -23,8 +23,10 @@ The JSON is UTF-8 with a final newline. `rulesSha256` hashes the canonical compa
 JSON representation, not the pretty-printed `rules.json` file bytes.
 
 Checks happen every 15 minutes, but a successful unchanged check creates no new
-version or Git commit. The badges in the README query the collector's live
-status; they can be newer than `checkAtPublication`. A live validation result is
+version or Git commit. The badges in the README query cached collection status;
+they can be newer than `checkAtPublication`. The public endpoint caches for
+60 seconds with a 30-second stale window, and Shields requests a 300-second
+cache, so display freshness is not instantaneous. A live validation result is
 historical evidence scoped to one endpoint and time, not a general guarantee of
 request acceptance.
 

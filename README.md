@@ -56,8 +56,10 @@ credentials, sessions, or permission to access private content.
 **These GitHub files are public and require no DynamicRule API key.**
 The hosted [DynamicRule service](https://www.dynamicrule.com) provides latest and
 historical lookups, timestamp queries, and request signing through its API.
-Hosted API requests require a key issued through your [DynamicRule account](https://www.dynamicrule.com/account);
-GitHub raw downloads do not.
+Hosted `/api/rules*` and `/api/sign` requests require a key issued through your
+[DynamicRule account](https://www.dynamicrule.com/account). GitHub raw downloads,
+the public dashboard, and `/api/public/status` and `/api/public/badge` collection
+metadata do not.
 
 Visit [DynamicRule](https://www.dynamicrule.com) for the dashboard,
 [API documentation](https://www.dynamicrule.com/docs), and [account access](https://www.dynamicrule.com/account). Keep issued keys private and send them only to the hosted
@@ -69,8 +71,10 @@ service, never to GitHub or OnlyFans.
   It is not an upstream publication timestamp.
 - **Check at publication** is a snapshot of matching collection evidence when
   this repository update was prepared. It does not advance on unchanged checks.
-- **The live badges above** report the collector's current state separately.
-  A newer badge timestamp does not imply a new commit.
+- **The cached badges above** report collection status separately. The public
+  endpoint caches for 60 seconds with a 30-second stale window; Shields requests
+  a 300-second cache. A newer badge timestamp does not imply a new commit, and
+  the display may lag a completed check.
 - Live validation requires an expected API response and rejection of a request
   signed with deliberately incorrect rules. It applies only to the endpoint and
   time recorded; it does not establish that every possible request will succeed.
