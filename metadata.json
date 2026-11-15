@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "versionId": "5fb9c915-b8a3-4943-aa1d-757abe0c4286",
+  "rulesSha256": "eee5ffb1cb3f4d8230cff9b6d0a1e16fabcbe136c83a6bd965eb680e3e65b632",
+  "sourceSha256": "72407830d8b5b1503b98abf5fae03a12a2358678a995e0d6af384f45c80b965c",
+  "firstObservedAt": "2026-11-14T00:50:06.015Z",
+  "publicationPreparedAt": "2026-11-15T08:00:50.151Z",
+  "checkAtPublication": {
+    "completedAt": "2026-11-15T08:00:31.637Z",
+    "liveServiceValidated": true,
+    "liveCheckedAt": "2026-11-15T08:00:31.326Z",
+    "endpoint": "/api2/v2/init"
+  },
+  "website": "https://www.dynamicrule.com"
+}
