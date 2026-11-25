@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "version": 7,
-  "versionId": "b65bb8ad-c7b2-4c5c-985b-21c7b3311e94",
-  "rulesSha256": "80ecf53b63dc0524b08d061e4b66e87184045de1248edf110a91d45e3feefcdb",
-  "sourceSha256": "966151350b82513dd87501a220a4bedd75449a5d8f0ac3c649a1cfd39a803319",
-  "firstObservedAt": "2026-11-24T10:30:35.836Z",
-  "publicationPreparedAt": "2026-11-24T10:30:36.980Z",
+  "version": 8,
+  "versionId": "db3534e1-91f1-487b-a140-71c54d356332",
+  "rulesSha256": "455553ff8c05583bbcb79fa5a67625bf9251e432a68f91cac019224331221b3d",
+  "sourceSha256": "58a9f58cb97bde7f2313c12dd8e7649bbb1fb2e72533a6c7c94ba73ae11d3466",
+  "firstObservedAt": "2026-11-25T10:30:31.425Z",
+  "publicationPreparedAt": "2026-11-25T10:30:32.726Z",
   "checkAtPublication": {
-    "completedAt": "2026-11-24T10:30:35.836Z",
+    "completedAt": "2026-11-25T10:30:31.425Z",
     "liveServiceValidated": true,
-    "liveCheckedAt": "2026-11-24T10:30:35.427Z",
+    "liveCheckedAt": "2026-11-25T10:30:30.640Z",
     "endpoint": "/api2/v2/init"
   },
   "website": "https://www.dynamicrule.com"
